@@ -1,0 +1,89 @@
+
+
+.shadow {
+	background: #fff;
+	float: left;
+	margin: 25px 0 0 25px;
+	display: block;
+	text-align: center;
+	width: 100px;
+	padding: 20px;
+	border-radius: 2px 2px 2px 2px;
+	user-select: none;
+
+	&.shadow1 {
+	  box-shadow: 0 10px 6px -6px #777;
+	}
+
+	&.shadow2 {
+	  box-shadow: 0 2px 1px #777;
+	}
+
+	&.shadow3 {
+	  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	}
+
+	&.shadow4 {
+	  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+	}
+
+	&.shadow5 {
+	  box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+	}
+
+	&.shadow6 {
+	  box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+	}
+
+	&.shadow7 {
+	  box-shadow: 0 4px 2px -3px;
+	}
+
+	&.shadow8 {
+	  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	}
+
+	&.shadow9 {
+	  border-bottom: 0 none;
+	  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+	}
+
+	&.shadow10 {
+	  box-shadow: 0 7px 4px #777;
+	}
+
+	&.shadow11 {
+	  box-shadow: 0 3px 2px #777;
+	}
+
+	&.shadow12 {
+	  box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+	}
+
+	&.shadow13 {
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+
+	&.shadow14 {
+	  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	}
+
+	&.shadow15 {
+	  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+	  border-color: currentColor #FFFFFF #FFFFFF currentColor;
+	  border-style: none solid solid none;
+	  border-width: medium 1px 1px medium;
+	  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+	  border-bottom-color: transparent;
+	  border-image: none;
+	  border-left-color: transparent;
+	  border-right-color: transparent;
+	  border-top-color: transparent;
+	}
+
+	&.shadow16 {
+	  box-shadow: 0 1px 1px 0 #C7C7C7 inset;
+	  background: none repeat scroll 0 0 #E9E9E9;
+	} 
+}
